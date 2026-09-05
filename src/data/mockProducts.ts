@@ -31,7 +31,7 @@ export const mockProducts: Product[] = [
     id: 'p1',
     name: 'iPhone 15',
     brand: 'Apple',
-    image: 'https://picsum.photos/seed/iphone15/400/400',
+    image: "https://commons.wikimedia.org/wiki/Special:Redirect/file/IPhone15.jpg",
     basePrice: 79900,
     description:
       'iPhone 15 with A16 Bionic chip, 48MP main camera, and USB-C. Buy now, pay later with no-cost EMI backed by your mutual funds.',
@@ -50,7 +50,7 @@ export const mockProducts: Product[] = [
     id: 'p2',
     name: 'MacBook Air M2',
     brand: 'Apple',
-    image: 'https://picsum.photos/seed/macbookair/400/400',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/MacBook_Air_%28A2681%29_front.jpg/960px-MacBook_Air_%28A2681%29_front.jpg?utm_source=chatgpt.com',
     basePrice: 114900,
     description:
       'Ultra-thin MacBook Air with the M2 chip, 18-hour battery life, and a stunning Liquid Retina display.',
@@ -68,7 +68,7 @@ export const mockProducts: Product[] = [
     id: 'p3',
     name: 'Fine Silver Bracelet',
     brand: 'Giva',
-    image: 'https://picsum.photos/seed/givabracelet/400/400',
+    image: 'https://commons.wikimedia.org/wiki/Special:Redirect/file/Silver_bracelet.jpg',
     basePrice: 2499,
     description:
       '925 sterling silver bracelet with zirconia stones. Comes with a certificate of authenticity.',
@@ -86,7 +86,7 @@ export const mockProducts: Product[] = [
     id: 'p4',
     name: 'Suzuki Access 125',
     brand: 'Suzuki',
-    image: 'https://picsum.photos/seed/suzukiaccess/400/400',
+    image: 'https://commons.wikimedia.org/wiki/Special:Redirect/file/Suzuki_Access_125%2C_2023.jpg',
     basePrice: 91000,
     description:
       "India's favourite 125cc scooter with best-in-class mileage and a spacious underseat storage.",
