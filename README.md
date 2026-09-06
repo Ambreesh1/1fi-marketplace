@@ -17,7 +17,9 @@ Built using **Expo (SDK 57) with Expo Router**, chosen for fast iteration within
 - **Product detail** (`src/app/shop/product/[id].tsx`) — image, description, variant selector, EMI plan selector (tenure + monthly amount), sticky CTA to proceed. Pushed as a nested stack screen within the Shop tab (proper header + back button).
 - **Mock data layer** (`src/api/marketplaceApi.ts`) — simulates network delay and error paths; product/EMI data is structured like a real API response (`src/data/mockProducts.ts`), not hardcoded into components. Swapping to a real backend later only requires editing `marketplaceApi.ts`.
 - Extended the existing `Colors` theme (`src/constants/theme.ts`) with brand tokens (`primary`, `primaryLight`, `border`, `success`) matched to the 1Fi app's purple/indigo palette, in both light and dark mode, reusing the app's existing `ThemedView`/`ThemedText` components for consistency.
-Demo-<img width="250" height="400" alt="WhatsApp Image 2026-09-06 at 11 48 25 AM" src="https://github.com/user-attachments/assets/967699d6-75d2-459b-b36e-6d597e544520" /> <img width="250" height="400" alt="WhatsApp Image 2026-09-06 at 11 48 25 AM (1)" src="https://github.com/user-attachments/assets/3ab44e29-40e8-4629-9a29-ee3077a8b0c2" /> <img width="250" height="400" alt="WhatsApp Image 2026-09-06 at 11 48 24 AM" src="https://github.com/user-attachments/assets/a83064e0-b793-48f1-ade1-d7d9305b4a94" />
+- 
+Demo-
+<img width="250" height="400" alt="WhatsApp Image 2026-09-06 at 11 48 25 AM" src="https://github.com/user-attachments/assets/967699d6-75d2-459b-b36e-6d597e544520" /> <img width="250" height="400" alt="WhatsApp Image 2026-09-06 at 11 48 25 AM (1)" src="https://github.com/user-attachments/assets/3ab44e29-40e8-4629-9a29-ee3077a8b0c2" /> <img width="250" height="400" alt="WhatsApp Image 2026-09-06 at 11 48 24 AM" src="https://github.com/user-attachments/assets/a83064e0-b793-48f1-ade1-d7d9305b4a94" />
 
 ## Project structure (new/changed files only)
 
